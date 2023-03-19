@@ -8,9 +8,14 @@ namespace ConsoleApp5
 {
     internal class Program
     {
+        static void NewFeature()
+        {
+            Console.WriteLine("This is a new feature");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("HIHIHIHIHIHIHIHIHIHIHIHIHI");
+            NewFeature();
         }
     }
 }
